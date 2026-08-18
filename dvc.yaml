@@ -1,0 +1,8 @@
+stages:
+  train_classifier:
+    cmd: python models/classification/train.py
+    deps:
+      - data/raw/Classification
+      - models/classification/train.py
+    outs:
+      - models/classification/resnet101.pth

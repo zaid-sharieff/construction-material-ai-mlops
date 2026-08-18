@@ -1,0 +1,11 @@
+path: data/raw
+train: images/train
+val: images/val
+
+names:
+  0: brick
+  1: sand
+  2: concrete
+  3: steel
+  4: wood
+  5: soil

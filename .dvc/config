@@ -1,0 +1,4 @@
+[core]
+    remote = localstore
+['remote "localstore"']
+    url = G:/5th_Sem/EL/dvc-storage

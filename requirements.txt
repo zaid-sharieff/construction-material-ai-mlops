@@ -1,0 +1,55 @@
+# NOTE:
+# Install torch separately using:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+# ==============================
+# COMPUTER VISION & DETECTION
+# ==============================
+ultralytics==8.0.227
+opencv-python==4.9.0.80
+albumentations==1.4.3
+Pillow==10.2.0
+
+# ==============================
+# DATA SCIENCE & QUANTIFICATION
+# ==============================
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.12.0
+
+# ==============================
+# WEB APPLICATION (STREAMLIT)
+# ==============================
+streamlit==1.33.0
+streamlit-extras
+streamlit-lottie
+plotly
+
+# ==============================
+# BACKEND & DATABASE
+# ==============================
+fastapi
+uvicorn
+sqlalchemy
+sqlite-utils
+
+# ==============================
+# MLOps & EXPERIMENT TRACKING
+# ==============================
+mlflow
+dvc
+evidently
+
+# ==============================
+# MODEL SERVING (TORCHSERVE)
+# ==============================
+torchserve
+torch-model-archiver
+
+# ==============================
+# UTILITIES
+# ==============================
+tqdm
+PyYAML
+rich
+requests

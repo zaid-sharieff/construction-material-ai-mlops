@@ -1,0 +1,19 @@
+schema: '2.0'
+stages:
+  train_classifier:
+    cmd: python models/classification/train.py
+    deps:
+    - path: data/raw/Classification
+      hash: md5
+      md5: 39c946b79232a1bc96ee83ad6bd200a7.dir
+      size: 438761225
+      nfiles: 10049
+    - path: models/classification/train.py
+      hash: md5
+      md5: 0edb151f28d0c354086014f1331475bd
+      size: 8707
+    outs:
+    - path: models/classification/resnet101.pth
+      hash: md5
+      md5: a08345fe2f18316192db557282d1cdb7
+      size: 170678475
